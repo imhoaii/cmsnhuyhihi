@@ -71,13 +71,6 @@ export default function App() {
     }, 250);
   };
 
-  useEffect(() => {
-    if (isBooted && audioRef.current) {
-      audioRef.current.play().then(() => {
-        setIsPlaying(true);
-      }).catch(e => console.log("Autoplay blocked or failed:", e));
-    }
-  }, [isBooted]);
 
   useEffect(() => {
     if (isAuthorized) {
@@ -96,15 +89,17 @@ export default function App() {
   }, [isAuthorized]);
 
   const togglePlay = () => {
-    if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.pause();
-      } else {
-        audioRef.current.play().catch(e => console.error("Audio play failed:", e));
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
+  if (!audioRef.current) return;
+
+  if (isPlaying) {
+    audioRef.current.pause();
+    setIsPlaying(false);
+  } else {
+    audioRef.current.play()
+      .then(() => setIsPlaying(true))
+      .catch(err => console.log("Play failed:", err));
+  }
+};
 
   const handleTimeUpdate = () => {
     if (audioRef.current) {
@@ -611,7 +606,6 @@ export default function App() {
                 src={PEACE_MUSIC_FILE} 
                 onTimeUpdate={handleTimeUpdate}
                 onEnded={() => setIsPlaying(false)}
-                autoPlay
                 loop
               />
               <button 
