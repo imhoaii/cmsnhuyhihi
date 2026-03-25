@@ -26,8 +26,8 @@ import React from "react";
 
 // --- ASSET CONFIGURATION ---
 // Tải file của bạn lên File Explorer và cập nhật tên file tại đây
-const CORE_ASSET_IMAGE = "core-asset.jpg"; // Tên file ảnh bạn tải lên
-const PEACE_MUSIC_FILE = "Music.mp3"; // Tên file nhạc bạn tải lên
+const CORE_ASSET_IMAGE = "/core-asset.jpg"; // Tên file ảnh bạn tải lên
+const PEACE_MUSIC_FILE = "/Music.mp3"; // Tên file nhạc bạn tải lên
 // ---------------------------
 
 export default function App() {
