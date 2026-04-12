@@ -137,7 +137,7 @@ export default function App() {
               <Lock size={20} />
             </div>
             <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-accent-blue">Access Restricted</h2>
-            <p className="text-[10px] text-ink-muted uppercase tracking-widest">Project HPD HARRY // Authorization Required</p>
+            <p className="text-[10px] text-ink-muted uppercase tracking-widest">Project HBD HARRY // Authorization Required</p>
           </div>
 
           <form onSubmit={handleAuth} className="space-y-6">
@@ -167,7 +167,7 @@ export default function App() {
 
           <div className="pt-4 border-t border-line text-center">
             <p className="text-[9px] text-ink-muted uppercase tracking-widest leading-relaxed">
-              Hint: The core objective of this project (5 letters).
+              Hint: 5 letters.
             </p>
           </div>
         </motion.div>
@@ -219,7 +219,7 @@ export default function App() {
             <Cpu size={18} />
           </div>
           <div className="font-mono text-xs tracking-tighter">
-            <p className="font-bold text-ink">PROJECT_HPD_HARRY</p>
+            <p className="font-bold text-ink">PROJECT_HBD_HARRY</p>
             <p className="text-ink-muted">VER: 30.0.0_STABLE</p>
           </div>
         </div>
@@ -258,7 +258,7 @@ export default function App() {
                 className="text-5xl md:text-7xl font-bold tracking-tighter leading-none"
               >
                 PROJECT <br />
-                <span className="text-accent-blue glitch-text" data-text="HPD HARRY">HPD HARRY</span>
+                <span className="text-accent-blue glitch-text" data-text="HPD HARRY">HBD HARRY</span>
               </motion.h1>
 
               <motion.p 
@@ -268,7 +268,7 @@ export default function App() {
                 transition={{ delay: 0.2 }}
                 className="text-ink-muted max-w-md leading-relaxed"
               >
-                Final Deliverable for Senior Business Analyst. A synthesized environment designed for logic-shutdown and deep recovery.
+                Final Deliverable for Business Analysis & Compliance Lead. A synthesized environment designed for logic-shutdown and deep recovery.
               </motion.p>
 
               <motion.div 
@@ -356,7 +356,7 @@ export default function App() {
                 </div>
 
                 <blockquote className="text-xl md:text-2xl font-light leading-relaxed italic text-ink/90">
-                  "Chào Senior BA của tớ, chúc mừng cậu đã vượt qua chuỗi Logic 'hack não' để chạm đến điểm cuối cùng. Tớ biết 20 ngày qua hệ thống thỉnh thoảng có chút 'Glitch' 🗿, nhưng tất cả đều dẫn đến đây. Bước sang tuổi 30, tớ không chúc cậu thành công hơn, tớ chỉ mong cậu tìm thấy <span className="text-accent-blue font-bold not-italic">PEACE</span>. Cậu đã hoàn thành xuất sắc thử thách rồi, giờ là lúc Shut-down logic và tận hưởng thôi!"
+                  "Chào cậu, chúc mừng cậu đã vượt qua chuỗi logic 'hack não' để chạm đến điểm cuối cùng này. Cậu đã dành cả tuổi 29 để tối ưu hóa công việc, giải quyết các backlog và đối mặt với không ít áp lực. Bước sang tuổi 30, tớ không chúc cậu thành công hơn (vì tớ biết chắc cậu sẽ làm được 😁), tớ chỉ mong cậu tìm thấy <span className="text-accent-blue font-bold not-italic">PEACE</span>. Hy vọng bức tranh và món quà nhỏ này có thể trở thành một 'safe zone' mỗi khi cậu thấy mệt mỏi. Cậu đã hoàn thành xuất sắc thử thách rùi - giờ là lúc shutdown logic và tận hưởng thôi! Wishing you all the best on the journey ahead."
                 </blockquote>
 
                 <div className="pt-8 border-t border-line flex items-center justify-between">
@@ -364,11 +364,11 @@ export default function App() {
                     <div className="w-10 h-10 rounded-full bg-gradient-to-br from-accent-blue to-accent-purple" />
                     <div>
                       <p className="text-sm font-bold">Tớ</p>
-                      <p className="text-[10px] font-mono text-ink-muted uppercase tracking-widest">Project Lead / Support System</p>
+                      <p className="text-[10px] font-mono text-ink-muted uppercase tracking-widest">Product Owner / Support System</p>
                     </div>
                   </div>
                   <div className="font-mono text-[10px] text-ink-muted">
-                    TIMESTAMP: 2026.03.25_02:49
+                    TIMESTAMP: 2026.04.13_00:10
                   </div>
                 </div>
               </div>
@@ -433,7 +433,7 @@ export default function App() {
                   <ImageIcon size={20} />
                 </div>
                 <p className="text-lg md:text-xl font-medium max-w-lg">
-                  "Một bản phác thảo từ những quan sát thầm lặng. Năng lượng bình yên dành riêng cho cậu."
+                  "Một góc nhỏ — để cậu có thể nghỉ ngơi mỗi khi thấy mệt."
                 </p>
               </motion.div>
             </div>
@@ -500,7 +500,7 @@ export default function App() {
                 <div className="p-8 font-mono text-sm space-y-6 relative">
                   <div className="space-y-1">
                     <p className="text-accent-blue">SELECT <span className="text-ink">*</span> FROM <span className="text-accent-purple">Rewards</span></p>
-                    <p className="text-accent-blue">WHERE <span className="text-ink">Recipient</span> = <span className="text-accent-purple">'Senior_BA'</span>;</p>
+                    <p className="text-accent-blue">WHERE <span className="text-ink">Recipient</span> = <span className="text-accent-purple">'BA & Compliance Lead'</span>;</p>
                   </div>
 
                   <div className="p-6 bg-black/40 rounded border border-line space-y-4">
@@ -518,11 +518,11 @@ export default function App() {
                     <div className="grid grid-cols-2 gap-6">
                       <div className="space-y-1">
                         <p className="text-[10px] text-ink-muted uppercase tracking-widest">Subject</p>
-                        <p className="text-ink text-xs">🎟️ VOUCHER: UNLIMITED RECOVERY</p>
+                        <p className="text-ink text-xs">🎟️ VOUCHER UNLIMITED RECOVERY</p>
                       </div>
                       <div className="space-y-1">
                         <p className="text-[10px] text-ink-muted uppercase tracking-widest">Service</p>
-                        <p className="text-ink text-xs">01 Recovery Session + 01 Bữa ăn/Đồ uống tùy chọn (User's Choice)</p>
+                        <p className="text-ink text-xs">01 Recovery Session/ 01 Bữa ăn/ Đồ uống tùy chọn (User's Choice)</p>
                       </div>
                     </div>
 
@@ -533,7 +533,7 @@ export default function App() {
                       </div>
                       <div className="flex justify-between text-xs">
                         <span className="text-ink-muted">Term:</span>
-                        <span className="text-ink text-right">Không giới hạn ngân sách. Không giới hạn thời gian (Nhưng khuyến nghị dùng khi User cần xả stress).</span>
+                        <span className="text-ink text-right"> Không giới hạn thời gian (Nhưng khuyến nghị dùng khi User cần xả stress).</span>
                       </div>
                     </div>
 
@@ -664,7 +664,7 @@ export default function App() {
 
       <footer className="py-12 border-t border-line bg-black/20">
         <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-mono text-ink-muted uppercase tracking-widest">
-          <p>© 2026 PROJECT HPD HARRY // ALL LOGIC RESERVED</p>
+          <p>© 2026 PROJECT HBD HARRY // ALL LOGIC RESERVED</p>
           <div className="flex items-center gap-6">
             <span className="text-accent-blue">Status: Stable</span>
             <span>Uptime: 30 Years</span>
